@@ -1,0 +1,151 @@
+/*CONTAINER*/
+.news-container section {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width: 60vw;
+    height: 100vh;
+    max-width: 100%;
+    overflow: scroll;
+    padding: 3vh;
+    background-color: rgb(231, 231, 231);
+    padding-top: 15vh;
+}
+
+/* SEARCH */
+input#input-Search {
+    outline: none;
+    border: none;
+    transition: 0.2s;
+    margin-left: 2vw;
+    position: relative;
+    background-color: none;
+    background: none;
+    font-size: 2.5vh;
+    z-index: 2;
+    border-bottom: rgb(41, 41, 41) solid 1px;
+}
+
+/* NEWS */
+.tin-tuc-news-container article div {
+    padding: 1vh;
+    font-size: 3vh;
+}
+
+.tin-tuc-news-container article div a {
+    color: black;
+    text-decoration: none;
+}
+
+.tin-tuc-news-container article div a:hover {
+    text-decoration: underline #000 solid;
+}
+
+.tin-tuc-news-container article .img {
+    height: 60%;
+    border-radius: 5px;
+    background-color: rgb(154, 154, 154);
+}
+
+.tin-tuc-news-container {
+    margin-top: 5vh;
+}
+
+.tin-tuc-news-container article {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+    border: rgb(144, 144, 144) 1px solid;
+    background-color: #f8f8f8;
+    transition: 0.1s;
+    border-radius: 5px;
+    padding: -1;
+    margin: 1vh;
+}
+
+.tin-tuc-news-container article:hover {
+    background-color: #ffb5b5;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 2vh;
+    height: 47vh;
+    /* Should be removed. Only for demonstration */
+}
+
+article {
+    overflow: hidden;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Create two equal columns that floats next to each other */
+#indie-1 {
+    background-image: url(../img/indie1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#indie-2 {
+    background-image: url(../img/indie2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#indie-3 {
+    background-image: url(../img/indie3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aaa-1 {
+    background-image: url(../img/AAA1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aaa-2 {
+    background-image: url(../img/AAA2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aaa-3 {
+    background-image: url(../img/AAA3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gameco-1 {
+    background-image: url(../img/Gameco1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gameco-2 {
+    background-image: url(../img/Gameco2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gameco-3 {
+    background-image: url(../img/Gameco3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.linking {
+    font-size: 20px;
+    line-height: 1.1;
+
+}
+
+.linking h1 {
+    font-size: 30px;
+}
