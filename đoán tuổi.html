@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trò chơi tính tuổi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trò chơi tính tuổi</h1>
+    <p>Enter your birth year:</p>
+    <input type="number" id="birthYear" placeholder="Nhập năm sinh của bạn">
+    <button onclick="calculateAge()">Tính tuổi</button>
+    <p id="output"></p>
+
+    <script>
+        function calculateAge() {
+            const birthYear = document.getElementById('birthYear').value;
+
+            if (!birthYear || isNaN(birthYear)) {
+                alert('Vui lòng nhập một năm sinh hợp lệ.');
+                return;
+            }
+
+            const currentYear = new Date().getFullYear();
+            const age = currentYear - birthYear;
+
+            document.getElementById('output').innerHTML = `Tuổi của bạn là: ${age} tuổi`;
+        }
+    </script>
+    <p>Nguyễn Lê Thảo Phương - 11A3 CLC</p>
+</body>
+</html>

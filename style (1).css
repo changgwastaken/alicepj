@@ -1,0 +1,13 @@
+#gameDiv{
+    font-family:'Copperplate' ,fantasy;
+    border:5px solid;
+    border-radius: 25px;
+    padding :10px;
+    background-color:grey;
+    text-align: center;
+}
+.choice{
+    line-height: 30px;
+    width:150px;
+
+}
