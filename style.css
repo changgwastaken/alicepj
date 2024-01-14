@@ -1,0 +1,18 @@
+#board {
+  background: grey;
+  padding: 50px;
+  border-radius: 50px;
+  margin-bottom: 100px;
+  position: centre;
+  color : Gray;
+}
+.cell {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  background: blue;
+  border-radius: 10px;
+  transition: all 200ms ease-out;
+  font-size: 26px;
+  font-weight: 600;
+}
